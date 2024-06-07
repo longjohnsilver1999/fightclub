@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fight Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#join">Join Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to Fight Club</h2>
+        <p>Welcome to the edge of society. Where rules are made to be broken, and true freedom is found in the chaos. Join us, and become part of something that defies the ordinary.</p>
+        <p>Do you have what it takes to strip away the superficial layers of modern life and find your true self? Join Fight Club, and discover the power that lies within.</p>
+        <p>Fighting isn't about violence; it's about finding strength, discipline, and a community that understands you. Are you ready to fight?</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Fight Club</h2>
+        <p>Fight Club started as an idea: a way to break free from the constraints of society and find raw, unfiltered authenticity. Our members come from all walks of life, united by a common goal: self-discovery through physical and mental challenges.</p>
+        <p>We believe that true growth comes from pushing boundaries and confronting fears. Fight Club is more than just physical combat—it's a journey into the depths of your soul.</p>
+    </section>
+
+    <section id="rules" class="section">
+        <h2>Rules of Fight Club</h2>
+        <ol>
+            <li>The first rule of Fight Club is: you do not talk about Fight Club.</li>
+            <li>The second rule of Fight Club is: you do not talk about Fight Club.</li>
+            <li>If someone yells "stop," goes limp, or taps out, the fight is over.</li>
+            <li>Only two guys to a fight.</li>
+            <li>One fight at a time, fellas.</li>
+            <li>No shirts, no shoes.</li>
+        </ol>
+    </section>
+
+    <section id="join" class="section">
+        <h2>Join Fight Club</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="reason">Why do you want to join Fight Club?</label>
+            <textarea id="reason" name="reason" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form action="submit_contact.php" method="post">
+            <label for="contact-name">Name:</label>
+            <input type="text" id="contact-name" name="contact-name" required>
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fight Club. All rights reserved.</p>
+    </footer>
+</body>
+</html>
